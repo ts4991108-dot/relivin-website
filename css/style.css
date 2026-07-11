@@ -154,6 +154,7 @@ h3 { font-size: 18px; font-weight: 700; }
   padding-bottom: 14px;
 }
 .brand { display: flex; align-items: center; gap: 10px; }
+.brand__mark-img { display: block; border-radius: 28%; flex-shrink: 0; }
 .brand__word { font-weight: 800; font-size: 17px; letter-spacing: -0.01em; }
 .nav__links {
   display: flex;

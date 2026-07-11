@@ -56,7 +56,7 @@
   }
 
   async function submitToWaitlist(email) {
-    var config = window.MY_TIMELINE_CONFIG;
+    var config = window.RELIVIN_CONFIG;
     if (!config || !config.supabaseUrl || !config.supabaseAnonKey) {
       throw new Error('Waitlist is not configured yet.');
     }
